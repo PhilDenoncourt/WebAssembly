@@ -1,0 +1,17 @@
+<ion-card>
+    <ion-card-header>
+        <ion-card-title>What's it look like</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+        <pre class="javascript ion-text-left">
+            <code>
+                <span class="keyword">import</span> eufa <span class="keyword">from</span> <span class="string">'eufa'</span>;
+                <span class="comment">// Init eufa first</span>
+                eufa.init(<span class="string">'assets/wasm/eufa/eufa-module.wasm'</span>, () =&gt; {{
+                    <span class="built_in">console</span>.log(eufa.Encryptor.base64_encode(<span class="string">'Hello WebAssembly, hello Eufa :)'</span>));
+                }});
+            </code>
+        </pre>
+        <ion-button color="primary" (click)="showTheDialog()">Run this</ion-button>
+    </ion-card-content>
+</ion-card>

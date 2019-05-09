@@ -1,0 +1,18 @@
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Eufa Demo</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <section *ngIf="wasmHasBeenLoaded">
+      <ion-item>
+        WASM loaded - Encoded 1000 entries
+      </ion-item>
+      <ion-item>
+        Javascript: {{javascriptMilliseconds | number:'1.4'}} ms
+      </ion-item>
+      <ion-item>
+        WebAssembly: {{wasmMilliseconds | number:'1.4'}} ms
+      </ion-item>
+    </section>
+  </ion-card-content>
+</ion-card>

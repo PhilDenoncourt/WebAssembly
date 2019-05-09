@@ -11,6 +11,7 @@ import { AvailabilityComponentModule } from '../availability/availability.module
 import { PortabilityComponentModule } from '../portability/portability.module';
 import { SandboxComponentModule } from '../sandbox/sandbox.module';
 import { HistoryOfWasmComponentModule } from '../history-of-wasm/history-of-wasm.module';
+import { WhatsItLookLikeComponentModule } from '../whats-it-look-like/whats-it-look-like.module';
 import { HomePage } from './home.page';
 
 @NgModule({
@@ -31,6 +32,7 @@ import { HomePage } from './home.page';
     PortabilityComponentModule,
     SandboxComponentModule,
     HistoryOfWasmComponentModule,
+    WhatsItLookLikeComponentModule
   ],
   declarations: [HomePage]
 })
