@@ -1,4 +1,9 @@
 // http://ionicframework.com/docs/theming/
+@font-face {
+  font-family: 'Lora';
+  src: url('assets/fonts/Lora-Regular.ttf');
+}
+
 @import '~@ionic/angular/css/core.css';
 @import '~@ionic/angular/css/normalize.css';
 @import '~@ionic/angular/css/structure.css';
